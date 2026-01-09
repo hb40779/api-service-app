@@ -1,0 +1,12 @@
+replicaCount: 2
+
+image:
+  repository: hashicorp/http-echo
+  tag: latest
+
+service:
+  port: 5678
+
+args:
+  - "-text=Hello from API Service"
+
